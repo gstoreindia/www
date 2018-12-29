@@ -1,801 +1,756 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Gstore India" />
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>GStore Organic Shopee</title>
 
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,600,700,800,900|Poppins:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+<!-- Mobile Specific Metas
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/colors/green.css" id="colors">
 
-	<!-- restaurant Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="restaurant/restaurant.css" type="text/css" />
-	<link rel="stylesheet" href="restaurant/css/fonts.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="stylesheet" href="css/colors.php?color=e7272d" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Restaurant | Canvas</title>
-
-	<style>
-	/* Page Loader CSS */
-	.css3-spinner:before,.pizza .slice:after,.pizza .slice:before{content:''}.css3-spinner{height:100vh;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background:#FFF}.css3-spinner:before{position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);width:15vmin;height:2vmin;background:#DDD;margin-top:17.5vmin;-webkit-filter:blur(10px);filter:blur(10px);border-radius:100%}.pizza{height:20vmin;width:20vmin;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:0 0;position:relative;-webkit-animation:rotate 13s linear infinite;animation:rotate 13s linear infinite}@-webkit-keyframes rotate{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.pizza .slice{z-index:-1;overflow:visible;position:absolute;width:0;height:0;border-style:solid;border-width:10vmin 2.75vmin 0;border-color:#ffdc73 transparent transparent;left:7.5vmin;top:0;-webkit-transform-origin:50% 100%;transform-origin:50% 100%;-webkit-transform:rotate(0);transform:rotate(0);-webkit-animation:loading 1.8125s ease-in-out infinite;animation:loading 1.8125s ease-in-out infinite}@-webkit-keyframes loading{0%,100%,49%{opacity:1}50%,99%{opacity:0}}@keyframes loading{0%,100%,49%{opacity:1}50%,99%{opacity:0}}.pizza .slice:nth-of-type(2n):after{box-shadow:.5vmin 2.5vmin 0 #cc333f}.pizza .slice:nth-of-type(4n):after{box-shadow:.5vmin 2.5vmin 0 #cc333f,1.5vmin 5vmin 0 #cc333f}.pizza .slice:nth-of-type(1){-webkit-transform:rotate(-27.75deg);transform:rotate(-27.75deg);-webkit-animation-delay:-62.5ms;animation-delay:-62.5ms}.pizza .slice:nth-of-type(2){-webkit-transform:rotate(-55.5deg);transform:rotate(-55.5deg);-webkit-animation-delay:-125ms;animation-delay:-125ms}.pizza .slice:nth-of-type(3){-webkit-transform:rotate(-83.25deg);transform:rotate(-83.25deg);-webkit-animation-delay:-.1875s;animation-delay:-.1875s}.pizza .slice:nth-of-type(4){-webkit-transform:rotate(-111deg);transform:rotate(-111deg);-webkit-animation-delay:-.25s;animation-delay:-.25s}.pizza .slice:nth-of-type(5){-webkit-transform:rotate(-138.75deg);transform:rotate(-138.75deg);-webkit-animation-delay:-.3125s;animation-delay:-.3125s}.pizza .slice:nth-of-type(6){-webkit-transform:rotate(-166.5deg);transform:rotate(-166.5deg);-webkit-animation-delay:-375ms;animation-delay:-375ms}.pizza .slice:nth-of-type(7){-webkit-transform:rotate(-194.25deg);transform:rotate(-194.25deg);-webkit-animation-delay:-.4375s;animation-delay:-.4375s}.pizza .slice:nth-of-type(8){-webkit-transform:rotate(-222deg);transform:rotate(-222deg);-webkit-animation-delay:-.5s;animation-delay:-.5s}.pizza .slice:nth-of-type(9){-webkit-transform:rotate(-249.75deg);transform:rotate(-249.75deg);-webkit-animation-delay:-.5625s;animation-delay:-.5625s}.pizza .slice:nth-of-type(10){-webkit-transform:rotate(-277.5deg);transform:rotate(-277.5deg);-webkit-animation-delay:-625ms;animation-delay:-625ms}.pizza .slice:nth-of-type(11){-webkit-transform:rotate(-305.25deg);transform:rotate(-305.25deg);-webkit-animation-delay:-.6875s;animation-delay:-.6875s}.pizza .slice:nth-of-type(12){-webkit-transform:rotate(-333deg);transform:rotate(-333deg);-webkit-animation-delay:-.75s;animation-delay:-.75s}.pizza .slice:before{position:absolute;height:1.5vmin;width:6vmin;background:#bbb083;top:-10.5vmin;left:-3vmin;border-radius:100vmin 100vmin .5vmin .5vmin/50vmin}.pizza .slice:after{border-radius:100%;position:absolute;width:1.25vmin;height:1.25vmin;background:#cc333f;left:-1vmin;top:-7vmin;z-index:2}
-	</style>
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
 </head>
 
-<body class="stretched sticky-footer" data-loader-html="<span class='pizza'> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> </span>">
+<body>
 
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
+<!-- Wrapper -->
+<div id="wrapper">
 
-		<!-- Header
-		============================================= -->
-		<header id="header" class="static-sticky transparent-header split-menu clearfix">
 
-			<div id="header-wrap" style="background-image: url('restaurant/images/sketch-header.png');">
+<!-- Header
+================================================== -->
+<header id="header">
 
-				<div class="container clearfix">
+<!-- Container -->
+<div class="container">
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+	<!-- Logo / Mobile Menu -->
+	<div class="sixteen columns">
+		<div id="logo">
+			<h1><a href="index.html"><img src="img/logo.png" alt="GStore" /></a></h1>
+		</div>
+	</div>
 
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-						<a href="demo-restaurant.html" class="standard-logo"><img src="restaurant/images/logo.png" alt="Canvas Logo"></a>
-						<a href="demo-restaurant.html" class="retina-logo"><img src="restaurant/images/logo@2x.png" alt="Canvas Logo"></a>
-					</div><!-- #logo end -->
 
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu" class="with-arrows clearfix">
+<!-- Navigation
+================================================== -->
+<div class="thirteen columns navigation">
 
-						<ul>
-							<li><a href="#"><div>Home</div></a></li>
-							<li><a href="restaurant/about-us.html"><div>About</div></a></li>
-							<li><a href="restaurant/menu.html"><div>Menu</div></a></li>
-						</ul>
+	<nav id="navigation" class="menu nav-collapse">
+		<ul>
+			<li><a href="index.html" id="current">Home</a></li>
+		</ul>
+	</nav>
 
-						<ul>
-							<li><a href="restaurant/gallery.html"><div>Gallery</div></a></li>
-							<li><a href="restaurant/blog.html"><div>Blog</div></a></li>
-							<li><a href="restaurant/reservation.html" class="color"><div>Reservation</div></a></li>
-						</ul>
+</div>
 
-					</nav><!-- #primary-menu end -->
+</div>
+<!-- Container / End -->
+</header>
 
-				</div>
 
+<!-- Slider
+================================================== -->
+
+<div id="homeSlider" class="royalSlider rsDefaultInv">
+
+	<!-- Slide #1 -->
+	<div class="rsContent">
+		<a class="rsImg" href="images/sliderA_01.jpg"></a>
+		<i class="rsTmb">Mexican Grilled <br> Corn Recipe</i>
+
+		<!-- Slide Caption -->
+		<div class="SlideTitleContainer rsABlock">
+		<div class="CaptionAlignment">
+			<div class="rsSlideTitle tags">
+				<ul>
+					<li>Baking</li>
+				</ul>
+				<div class="clearfix"></div>
 			</div>
 
-		</header><!-- #header end -->
+			<h2 class="rsSlideTitle title"><a href="recipe-page-1.html">Mexican Grilled Corn Recipe</a></h2>
 
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element swiper_wrapper slider-parallax force-full-screen full-screen clearfix" data-effect="fade" data-loop="true" data-autoplay="6000" data-speed="1400">
+			<div class="rsSlideTitle details">
+				<ul>
+					<li><i class="fa fa-cutlery"></i> 4 Servings</li>
+					<li><i class="fa fa-clock-o"></i> 30 Min</li>
+					<li><i class="fa fa-user"></i> by <a href="#">Sandra Fortin</a></li>
+				</ul>
+			</div>
 
-			<div class="slider-parallax-inner">
-				<div class="swiper-container swiper-parent">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide" style="background-image: url('restaurant/images/slider/1.jpg'); background-position: center center;">
-							<div class="container dark clearfix">
-								<div class="slider-caption">
-									<h2 class="font-secondary ls0 t400 nott" data-animate="fadeIn">Taste from Italy.</h2>
-									<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">Who Needs a Boyfriend if there Pizza And WiFi are both available.</p>
-									<div class="static-content" style="position: relative; display: flex; justify-content: flex-start; flex-direction: row; margin-top: 30px" data-animate="fadeIn" data-delay="800">
-										<img src="restaurant/images/icons/bowl-white.svg" width="42" height="42" alt="">
-										<img class="leftmargin-sm" src="restaurant/images/icons/spoon-white.svg" width="42" height="42" alt="">
-										<img class="leftmargin-sm" src="restaurant/images/icons/glass-white.svg" width="42" height="42" alt="">
-										<img class="leftmargin-sm" src="restaurant/images/icons/wifi-white.svg" width="42" height="42" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide" style="background-image: url('restaurant/images/slider/3.jpg'); background-position: center center;">
-							<div class="container dark clearfix">
-								<div class="slider-caption slider-caption-center" style="margin-top: -30px;">
-									<img data-animate="fadeIn" src="restaurant/images/slider-logo.png" alt="" style="width: 120px; margin-bottom: 10px;">
-									<h2 class="font-secondary ls0 t400 nott" data-animate="fadeIn" data-delay="400">Make your Chocolate.</h2>
-									<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="800">You'll be surprised to see the Final Results of your<br>Creation &amp; would crave for more.</p>
-									<div class="static-content" style="position: relative; display: flex; justify-content: center; flex-direction: row; margin-top: 30px" data-animate="fadeIn" data-delay="1000">
-										<img src="restaurant/images/icons/bowl-white.svg" width="42" height="42" alt="">
-										<img class="leftmargin-sm" src="restaurant/images/icons/spoon-white.svg" width="42" height="42" alt="">
-										<img class="leftmargin-sm" src="restaurant/images/icons/glass-white.svg" width="42" height="42" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide" style="background-image: url('restaurant/images/slider/2.jpg'); background-position: center bottom;">
-							<div class="container dark clearfix">
-								<div class="slider-caption slider-caption-right">
-									<h2 class="font-secondary ls0 t400 nott" data-animate="fadeIn">Hello &amp; Welcome.</h2>
-									<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">Coffee drinkers make better Lovers. Everything starts with a great Coffee.</p>
-								</div>
-							</div>
-						</div>
+			<a href="recipe-page-1.html" class="rsSlideTitle button">View Recipe</a>
+		</div>
+		</div>
+
+	</div>
+
+	<!-- Slide #2 -->
+	<div class="rsContent">
+		<a class="rsImg" href="images/sliderA_02.jpg"></a>
+		<i class="rsTmb">Roast Chicken <br>With Lemon Gravy</i>
+
+		<!-- Slide Caption -->
+		<div class="SlideTitleContainer rsABlock">
+		<div class="CaptionAlignment">
+			<div class="rsSlideTitle tags">
+				<ul>
+					<li>Curry</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+
+			<h2 class="rsSlideTitle title"><a href="recipe-page-1.html">Roast Chicken <br>With Lemon Gravy</a></h2>
+
+			<div class="rsSlideTitle details">
+				<ul>
+					<li><i class="fa fa-cutlery"></i> 4 Servings</li>
+					<li><i class="fa fa-clock-o"></i> 1 Hr 20 Min</li>
+					<li><i class="fa fa-user"></i> by <a href="#">Sandra Fortin</a></li>
+				</ul>
+			</div>
+
+			<a href="recipe-page-1.html" class="rsSlideTitle button">View Recipe</a>
+		</div>
+		</div>
+
+	</div>
+	
+	<!-- Slide #3 -->
+	<div class="rsContent">
+		<a class="rsImg" href="images/sliderA_03.jpg"></a>
+		<i class="rsTmb">Avocado Melon Salad <br> With Lime Vinaigrette </i>
+
+		<!-- Slide Caption -->
+		<div class="SlideTitleContainer rsABlock">
+		<div class="CaptionAlignment">
+			<div class="rsSlideTitle tags">
+				<ul>
+					<li>Salads</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+
+			<h2 class="rsSlideTitle title"><a href="recipe-page-2.html">Avocado Melon Salad With Lime Vinaigrette</a></h2>
+
+			<div class="rsSlideTitle details">
+				<ul>
+					<li><i class="fa fa-cutlery"></i> 1 Servings</li>
+					<li><i class="fa fa-clock-o"></i> 15 Min</li>
+					<li><i class="fa fa-user"></i> by <a href="#">Sandra Fortin</a></li>
+				</ul>
+			</div>
+
+			<a href="recipe-page-2.html" class="rsSlideTitle button">View Recipe</a>
+		</div>
+		</div>
+
+	</div>
+	
+	<!-- Slide #4 -->   
+	<div class="rsContent">
+		<a class="rsImg" href="images/sliderA_04.jpg"></a>
+		<i class="rsTmb">Chunky Beef Stew</i>
+
+		<!-- Slide Caption -->
+		<div class="SlideTitleContainer rsABlock">
+		<div class="CaptionAlignment">
+			<div class="rsSlideTitle tags">
+				<ul>
+					<li>Beef</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+
+			<h2 class="rsSlideTitle title"><a href="recipe-page-1.html">Chunky Beef Stew</a></h2>
+
+			<div class="rsSlideTitle details">
+				<ul>
+					<li><i class="fa fa-cutlery"></i> 4 Servings</li>
+					<li><i class="fa fa-clock-o"></i> 2 Hr 30 Min</li>
+					<li><i class="fa fa-user"></i> by <a href="#">Sandra Fortin</a></li>
+				</ul>
+			</div>
+
+			<a href="recipe-page-1.html" class="rsSlideTitle button">View Recipe</a>
+		</div>
+		</div>
+
+	</div>          
+	
+	<!-- Slide #5 -->
+	<div class="rsContent">
+		<a class="rsImg" href="images/sliderA_05.jpg"></a>
+		<i class="rsTmb">Farmhouse Vegetable <br> And Barley Soup</i>
+
+		<!-- Slide Caption -->
+		<div class="SlideTitleContainer rsABlock">
+		<div class="CaptionAlignment">
+			<div class="rsSlideTitle tags">
+				<ul>
+					<li>Soups</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+
+			<h2 class="rsSlideTitle title"><a href="recipe-page-1.html">Farmhouse Vegetable And Barley Soup</a></h2>
+
+			<div class="rsSlideTitle details">
+				<ul>
+					<li><i class="fa fa-cutlery"></i> 4 Servings</li>
+					<li><i class="fa fa-clock-o"></i> 1 Hr 30 Min</li>
+					<li><i class="fa fa-user"></i> by <a href="#">Sandra Fortin</a></li>
+				</ul>
+			</div>
+
+			<a href="recipe-page-1.html" class="rsSlideTitle button">View Recipe</a>
+		</div>
+		</div>
+
+	</div>
+
+</div>
+
+
+
+<!-- Content
+================================================== -->
+<div class="container">
+
+	<!-- Masonry -->
+	<div class="twelve columns">
+
+		<!-- Headline -->
+ 		<h3 class="headline">Latest Recipes</h3>
+		<span class="line rb margin-bottom-35"></span>
+		<div class="clearfix"></div>
+
+		<!-- Isotope -->
+		<div class="isotope">
+
+			<!-- Recipe #1 -->
+			<div class="four recipe-box columns">
+
+				<!-- Thumbnail -->
+				<div class="thumbnail-holder">
+					<a href="recipe-page-1.html">
+						<img src="images/recipeThumb-01.jpg" alt=""/>
+						<div class="hover-cover"></div>
+						<div class="hover-icon">View Recipe</div>
+					</a>
+				</div>
+
+				<!-- Content -->
+				<div class="recipe-box-content">
+					<h3><a href="recipe-page-1.html">Mexican Grilled <br> Corn Recipe</a></h3>
+					
+					<div class="rating five-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
 					</div>
-					<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
-					<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+
+					<div class="recipe-meta"><i class="fa fa-clock-o"></i> 30 min</div>
+
+					<div class="clearfix"></div>
 				</div>
 			</div>
 
-		</section>
-		<!-- Content
-		============================================= -->
-		<section id="content" style="overflow: visible;">
+			<!-- Recipe #2 -->
+			<div class="four recipe-box columns">
 
-			<div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 3; background: url('restaurant/images/sketch.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-top: -40px;"></div>
-
-			<div class="content-wrap">
-
-				<div class="section nomargin clearfix" style="padding: 40px 0; background: url('restaurant/images/sections/4.jpg') center center no-repeat; background-size: 100% auto">
-					<div class="container clearfix">
-
-						<div class="heading-block nobottomborder bottommargin-sm">
-							<h2 class="font-secondary color nott" style="font-size: 52px;">How We Work</h2>
-						</div>
-
-						<div class="row clearfix">
-							<div class="col-lg-3 bottommargin-sm">
-								<div class="feature-box media-box" style="max-width: 400px">
-									<div class="fbox-media" style="width: 70px; height: auto;">
-										<img src="restaurant/images/icons/bowl.svg" alt="">
-									</div>
-									<h3>Food Served Hot</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas omnis nam molestias minus ipsa, placeat!</p>
-								</div>
-							</div>
-
-							<div class="col-lg-3 bottommargin-sm">
-								<div class="feature-box media-box" style="max-width: 400px">
-									<div class="fbox-media" style="width: 70px; height: auto;">
-										<img src="restaurant/images/icons/spoon.svg" alt="">
-									</div>
-									<h3>Ample Options</h3>
-									<p>Facere aliquam itaque quia recusandae, corporis fugit fugiat eaque, accusamus officiis reprehenderit.</p>
-								</div>
-							</div>
-
-							<div class="col-lg-3 bottommargin-sm">
-								<div class="feature-box media-box" style="max-width: 400px">
-									<div class="fbox-media" style="width: 70px; height: auto;">
-										<img src="restaurant/images/icons/glass.svg" alt="">
-									</div>
-									<h3>In-House Brewery</h3>
-									<p>Velit id facilis odit aliquid laudantium. Tempore, sequi. Harum nesciunt, magni aperiam est?</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
+				<!-- Thumbnail -->
+				<div class="thumbnail-holder">
+					<a href="recipe-page-2.html">
+						<img src="images/recipeThumb-02.jpg" alt=""/>
+						<div class="hover-cover"></div>
+						<div class="hover-icon">View Recipe</div>
+					</a>
 				</div>
-
-				<div class="clear"></div>
-
-				<div class="section nobottommargin" style="background: #FFF url('restaurant/images/sections/5.jpg') no-repeat top left / cover; padding: 60px 0; border-top: 1px solid #EEE;">
-					<div class="container clearfix">
-						<div class="heading-block center nobottommargin nobottomborder">
-							<span class="font-primary" style="font-size: 16px; color: #888">Tasty &amp; Healthy</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px;">Our Food Menu</h3>
-						</div>
+				
+				<!-- Content -->
+				<div class="recipe-box-content">
+					<h3><a href="recipe-page-2.html">Choclate Cake With Green Tea Cream</a></h3>
+					
+					<div class="rating four-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
 					</div>
+
+					<div class="recipe-meta"><i class="fa fa-clock-o"></i> 1 hr 30 min</div>
+
+					<div class="clearfix"></div>
 				</div>
-
-				<div class="section food-menu notopmargin nopadding">
-					<div class="container-fluid">
-						<div class="row common-height clearfix">
-							<div class="col-lg-7 clearfix">
-								<div class="vertical-middle">
-									<div class="col-padding clearfix">
-										<div><div id="item-thumb" class="item-thumb"></div></div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-5" style="background-color: #FFF; padding: 0; box-shadow: -4px 1px 15px 3px rgba(0,0,0,0.07);">
-								<div id="food-menu-carousel" class="menu-carousel owl-carousel image-carousel food-menu-carousel custom-js">
-
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/food/1.jpg" alt="Image 1">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Multigrain Toast.</h3>
-												<div class="food-info">Corn, Bacon, Tomato, Cheese, Onlion</div>
-												<p class="nobottommargin">Efficiently syndicate cross functional web-readiness before business niches. Uniquely reinvent ethical testing procedures before ethical leadership skills.<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;19.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/food/2.jpg" alt="Image 2">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Prawn Mussels Plate.</h3>
-												<div class="food-info">Prawn, Tomato, Noodles</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;11.59</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/food/3.jpg" alt="Image 3">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Black Jumbo Burger.</h3>
-												<div class="food-info">Chicken Patty, Bean Bread</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;8.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/food/4.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Fried Chicken.</h3>
-												<div class="food-info">Chicken, Olive Oil</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;22.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/food/5.jpg" alt="Image 1">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Smoothie Fruit Bowl.</h3>
-												<div class="food-info">Raspberries, Strawberries, Granola, Banana</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur. Holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;19.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/food/6.jpg" alt="Image 2">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Margarita Pizza.</h3>
-												<div class="food-info">Wheat Flour, Cheese, Tomato, Onion</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;14.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/food/7.jpg" alt="Image 3">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Macaroni Pasta.</h3>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;11.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/food/8.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Chicken with Fries.</h3>
-												<div class="food-info">Chicken, Potatoes, Broccolies</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;33.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/food/9.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Chinese Noodle.</h3>
-												<div class="food-info">Noodles, Cornflower, Prawn</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;7.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="section nobottommargin nobg">
-					<div class="container clearfix">
-
-						<div class="col_one_third nobottommargin">
-							<div class="feature-box media-box">
-								<div class="fbox-media">
-									<a href="restaurant/reservation.html" class="image_fade"><img style="border-radius: 2px;" src="restaurant/images/featured/1.jpg" alt="Why choose Us?"></a>
-								</div>
-								<div class="fbox-desc">
-									<h3>Beautiful Location.<span class="subtitle ls1" style="color:#BBB">Food Tastes Better when you are in Good Location.</span></h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus eaque perspiciatis mollitia.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col_one_third nobottommargin">
-							<div class="feature-box media-box">
-								<div class="fbox-media">
-									<a href="restaurant/gallery.html" class="image_fade"><img style="border-radius: 2px;" src="restaurant/images/featured/2.jpg" alt="Effective Planning"></a>
-								</div>
-								<div class="fbox-desc">
-									<h3>Feel the Taste.<span class="subtitle ls1" style="color:#BBB">Nothing Brings people together like Good Food.</span></h3>
-									<p>Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col_one_third nobottommargin col_last">
-							<div class="feature-box media-box">
-								<div class="fbox-media">
-									<a href="restaurant/about-us.html" class="image_fade"><img style="border-radius: 2px;" src="restaurant/images/featured/3.jpg" alt="Why choose Us?"></a>
-								</div>
-								<div class="fbox-desc">
-									<h3>Delicious Desserts.<span class="subtitle ls1" style="color:#BBB">The Best things in life are Sweet.</span></h3>
-									<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum quo. , labore totam. Accusamus perspiciatis asperiores.</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-				<div class="section nobottommargin" style="background: #fee749 url('restaurant/images/sections/4.jpg') no-repeat center right; background-size: cover; padding: 60px 0;">
-					<div class="heading-block center nobottommargin nobottomborder">
-						<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Sweet &amp; Sexy</span>
-						<h3 class="nott font-secondary ls0" style="font-size: 60px;line-height: 1.3;">Our Dessert Menu</h3>
-					</div>
-				</div>
-
-				<div class="section dessert-menu nomargin nopadding">
-					<div class="container-fluid">
-
-						<div class="row common-height clearfix">
-							<div class="col-lg-5" style="background-color: #FFF; padding: 0; box-shadow: -4px 1px 15px 3px rgba(0,0,0,0.07);">
-								<div id="dessert-menu-carousel" class="menu-carousel owl-carousel image-carousel custom-js">
-
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/desserts/1.jpg" alt="Image 1">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Chocolate Cupcakes.</h3>
-												<div class="food-info">Chocolate, Caramel, Hazelnut, Coffee, Strawberry</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;19.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/desserts/2.jpg" alt="Image 2">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Caramel Cake.</h3>
-												<div class="food-info">Egg, Caramel</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;11.59</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/desserts/3.jpg" alt="Image 3">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Choco Strawberry Waffle.</h3>
-												<div class="food-info">Strawberry, Chocolate Syrup, Vanilla Icecream</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;8.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/desserts/4.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Tuffle Cake.</h3>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;22.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/desserts/5.jpg" alt="Image 1">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Chocolate Croissant.</h3>
-												<div class="food-info">Chocolate Syrup</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur. Holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;19.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/desserts/6.jpg" alt="Image 2">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Delicious Cookies.</h3>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;14.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/desserts/7.jpg" alt="Image 3">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Strawberry Pastry.</h3>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;11.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/desserts/8.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Fruity Bowl.</h3>
-												<div class="food-info">Fruits, Yogurt, Strawberries, Banana, Cherries</div>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;33.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="restaurant/images/items/desserts/9.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="heading-block nobottomborder nobottommargin">
-												<h3 class="font-secondary nott">Jelly Cake.</h3>
-												<p class="nobottommargin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											</div>
-											<div class="food-price color fleft font-primary">&dollar;7.99</div>
-											<a href="restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-7 max-height clearfix">
-								<div class="vertical-middle">
-									<div class="col-padding clearfix">
-										<div><div id="item-thumb1" class="item-thumb"></div></div>
-										<div class="center divcenter"><a class="button button-border button-small button-black button-dark button-circle noleftmargin" style="margin-top: 0px;">See All Menu</a></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-				<div class="section nobg">
-					<div class="d-none d-lg-block" style="background: #FFF url('restaurant/images/sections/3.jpg') no-repeat center center / cover; height: 100%;position: absolute; top: 0; left: 0; width: 100%"></div>
-					<div class="container clearfix">
-
-						<div class="heading-block nobottomborder">
-							<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Services</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.3;">What We Do</h3>
-						</div>
-						<div class="row clearfix">
-							<div class="col-lg-6 col-md-6 col-12"><img src="restaurant/images/sections/1.jpg" alt=""></div>
-							<div class="col-lg-4 col-md-6 col-12">
-								<a href="restaurant/about-us.html" class="button button-border button-large button-black button-dark button-rounded nott ls0 font-primary service-button">Our Service</a>
-								<img src="restaurant/images/sections/2.jpg" alt="" class="d-none d-md-block" style="margin: 0 0 0 -80px;">
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="section nobottommargin" style="padding: 80px 0; background: #F5F5F5 url('restaurant/images/food-pattern.png') repeat center center;">
-					<div class="container clearfix">
-
-						<div class="heading-block center nobottomborder">
-							<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Expert &amp; Skillful</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.3;">Our Chefs</h3>
-						</div>
-
-						<div class="row clearfix">
-
-							<div class="col-lg-3 col-md-6">
-								<div class="team">
-									<div class="team-image imagescalein">
-										<a href="restaurant/about-us.html"><img src="restaurant/images/chefs/1.jpg" alt="John Doe"></a>
-									</div>
-									<div class="team-desc">
-										<div class="team-title">
-											<h4 class="font-primary t400 ls2">Fig Nelson</h4>
-											<span>Chef</span>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor sequi quaerat, deleniti beatae ratione.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="team">
-									<div class="team-image imagescalein">
-										<a href="restaurant/about-us.html"><img src="restaurant/images/chefs/2.jpg" alt="Josh Clark"></a>
-									</div>
-									<div class="team-desc">
-										<div class="team-title">
-											<h4 class="font-primary t400 ls2">Josh Clark</h4>
-											<span>Chef</span>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eveniet magnam nam, atqu.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="team">
-									<div class="team-image imagescalein">
-										<a href="restaurant/about-us.html"><img src="restaurant/images/chefs/3.jpg" alt="Mary Jane"></a>
-									</div>
-									<div class="team-desc">
-										<div class="team-title">
-											<h4 class="font-primary t400 ls2">Mary Jane</h4>
-											<span>Manager</span>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis cum minima mollitia, velit.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="team">
-									<div class="team-image imagescalein">
-										<a href="restaurant/about-us.html"><img src="restaurant/images/chefs/4.jpg" alt="Nix Maxwell"></a>
-									</div>
-									<div class="team-desc">
-										<div class="team-title">
-											<h4 class="font-primary t400 ls2">Nix Maxwell</h4>
-											<span>Staff</span>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dolore ipsam nemo, similique.</p>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-				<div style="background: #FFF url('restaurant/images/sections/7.jpg') no-repeat top right; background-size: 100% auto; padding-top: 50px">
-					<div class="container clearfix">
-
-						<div class="heading-block center nobottomborder">
-							<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Our Latest News</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.2;">News Feed</h3>
-						</div>
-
-						<div class="row clearfix">
-
-							<div class="col-lg-4 col-md-6 bottommargin-sm">
-								<div class="ipost clearfix">
-									<div class="entry">
-										<div class="entry-image nobottommargin">
-											<a href="restaurant/images/blogs/1.jpg" data-lightbox="image"><img class="image_fade" src="restaurant/images/blogs/1.jpg" alt="Image 1"></a>
-										</div>
-										<div class="entry-title">
-											<ul class="entry-meta clearfix">
-												<li><a href="#">08th Apr 2017</a></li>
-												<li><a href="#">Video</a></li>
-											</ul>
-											<div class="clear"></div>
-											<h2 class="nobottommargin"><a href="restaurant/blog.html">Make Ahead Super Green Vegan Quinoa Sandwich.</a></h2>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-4 col-md-6 bottommargin-sm">
-								<div class="ipost clearfix">
-									<div class="entry">
-										<div class="entry-image nobottommargin">
-											<a href="restaurant/images/blogs/2.jpg" data-lightbox="image"><img class="image_fade" src="restaurant/images/blogs/2.jpg" alt="Image 2"></a>
-										</div>
-										<div class="entry-title">
-											<ul class="entry-meta clearfix">
-												<li><a href="#">21th Mar 2017</a></li>
-												<li><a href="#">Book</a></li>
-											</ul>
-											<div class="clear"></div>
-											<h2 class="nobottommargin"><a href="restaurant/blog.html">We Delivered Heart Shape Cornbread Waffles.</a></h2>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-4 col-md-6 bottommargin-sm">
-								<div class="ipost clearfix">
-									<div class="entry">
-										<div class="entry-image nobottommargin">
-											<a href="restaurant/images/blogs/3.jpg" data-lightbox="image"><img class="image_fade" src="restaurant/images/blogs/3.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title">
-											<ul class="entry-meta clearfix">
-												<li><a href="#">10th Feb 2016</a></li>
-												<li><a href="#">Recipe</a></li>
-											</ul>
-											<div class="clear"></div>
-											<h2 class="nobottommargin"><a href="restaurant/blog.html">Top Delicious Recipes from world's Best Chefs.</a></h2>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-
-				<div class="line clear"></div>
-
-				<div class="container section-contact topmargin-lg clearfix">
-					<div class="row clearfix">
-
-						<div class="col-lg-3 col-md-6 bottommargin-sm center">
-							<i class="i-plain i-xlarge divcenter nobottommargin icon-et-map"></i>
-							<h3 class="uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Contact</h3>
-							<span class="font-primary">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</span>
-						</div>
-
-						<div class="col-lg-3 col-md-6 bottommargin-sm center">
-							<i class="i-plain i-xlarge divcenter nobottommargin icon-et-clock"></i>
-							<h3 class="uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Opening Time</h3>
-							<span class="font-primary">Sun - Thu | 07:00 - 23:00 Hours<br>
-							Fri - Sat | 08:00 - 01:00 Hours</span>
-						</div>
-
-						<div class="col-lg-3 col-md-6 bottommargin-sm center">
-							<i class="i-plain i-xlarge divcenter nobottommargin icon-et-clipboard"></i>
-							<h3 class="uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Reservation</h3>
-							<span class="font-primary"><strong>Mobile: </strong>+62-111-222-333<br>
-							<strong>Fax: </strong>(+62)-11-4752-1433</span>
-						</div>
-
-						<div class="col-lg-3 col-md-6 bottommargin-sm center">
-							<i class="i-plain i-xlarge divcenter nobottommargin icon-et-heart"></i>
-							<h3 class="uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Social Contact</h3>
-							<div style="display: flex; justify-content: center">
-								<a href="#" class="social-icon si-borderless si-facebook">
-									<i class="icon-line2-social-facebook"></i>
-									<i class="icon-line2-social-facebook"></i>
-								</a>
-								<a href="#" class="social-icon si-borderless si-twitter">
-									<i class="icon-line2-social-twitter"></i>
-									<i class="icon-line2-social-twitter"></i>
-								</a>
-								<a href="#" class="social-icon si-borderless si-youtube">
-									<i class="icon-line2-social-youtube"></i>
-									<i class="icon-line2-social-youtube"></i>
-								</a>
-								<a href="#" class="social-icon si-borderless si-email3">
-									<i class="icon-line2-envelope"></i>
-									<i class="icon-line2-envelope"></i>
-								</a>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
 			</div>
 
-			<div style="position: absolute; bottom: 0; left: 0; width: 100%; z-index: 3; background: url('restaurant/images/sketch-header.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-bottom: -10px;"></div>
+			<!-- Recipe #3 -->
+			<div class="four recipe-box columns">
 
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="dark" style="background: url('restaurant/images/footer-bg.jpg')  repeat center center / cover; background-size: auto 100%;; padding: 50px 0 22px">
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="nobg">
-
-				<div class="container clearfix">
-
-					<div class="col_half nobottommargin">
-
-						<span class="font-primary">&copy; Canvas Inc. 2017. All Rights Reserved.</span>
-
-					</div>
-
-					<div class="col_half col_last nobottommargin">
-						<div class="copyrights-menu copyright-links fright clearfix">
-							<a href="#">Home</a>/<a href="restaurant/about-us.html">About Us</a>/<a href="restaurant/menu.html">Menu</a>/<a href="restaurant/blog.html">News</a>/<a href="restaurant/reservation.html">Contact</a>
-						</div>
-					</div>
-
+				<!-- Thumbnail -->
+				<div class="thumbnail-holder">
+					<a href="recipe-page-1.html">
+						<img src="images/recipeThumb-03.jpg" alt=""/>
+						<div class="hover-cover"></div>
+						<div class="hover-icon">View Recipe</div>
+					</a>
 				</div>
+				
+				<!-- Content -->
+				<div class="recipe-box-content">
+					<h3><a href="recipe-page-1.html">Thai Yellow Curry Chicken</a></h3>
+					
+					<div class="rating five-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
 
-			</div><!-- #copyrights end -->
+					<div class="recipe-meta"><i class="fa fa-clock-o"></i> 45 min</div>
 
-		</footer><!-- #footer end -->
+					<div class="clearfix"></div>
+				</div>
+			</div>
 
-	</div><!-- #wrapper end -->
+			<!-- Recipe #4 -->
+			<div class="four recipe-box columns">
 
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-line-arrow-up"></div>
+				<!-- Thumbnail -->
+				<div class="thumbnail-holder">
+					<a href="recipe-page-2.html">
+						<img src="images/recipeThumb-04.jpg" alt=""/>
+						<div class="hover-cover"></div>
+						<div class="hover-icon">View Recipe</div>
+					</a>
+				</div>
+				
+				<!-- Content -->
+				<div class="recipe-box-content">
+					<h3><a href="recipe-page-2.html">Avocado Melon Salad With Lime Vinaigrette</a></h3>
+					
+					<div class="rating four-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
 
-	<!-- External JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.js"></script>
+					<div class="recipe-meta"><i class="fa fa-clock-o"></i> 15 min</div>
 
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
+					<div class="clearfix"></div>
+				</div>
+			</div>
 
-	<!-- Custom Carousel JS File -->
-	<script>
+			<!-- Recipe #5 -->
+			<div class="four recipe-box columns">
 
-		jQuery(document).ready( function($){
+				<!-- Thumbnail -->
+				<div class="thumbnail-holder">
+					<a href="recipe-page-1.html">
+						<img src="images/recipeThumb-05.jpg" alt=""/>
+						<div class="hover-cover"></div>
+						<div class="hover-icon">View Recipe</div>
+					</a>
+				</div>
+				
+				<!-- Content -->
+				<div class="recipe-box-content">
+					<h3><a href="recipe-page-1.html">Pollo Borracho With Homemade Tortillas</a></h3>
+					
+					<div class="rating four-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
 
-			var carouselRTL = false;
+					<div class="recipe-meta"><i class="fa fa-clock-o"></i> 30 min</div>
 
-			if( $('body').hasClass('rtl') ) { carouselRTL = true; }
+					<div class="clearfix"></div>
+				</div>
+			</div>
 
-			$('#food-menu-carousel').owlCarousel({
-				animateIn: 'fadeIn',
-				animateOut: 'fadeOut',
-				items: 1,
-				mouseDrag: false,
-				dotsContainer: '#item-thumb',
-				rtl: carouselRTL
-			});
+			<!-- Recipe #6 -->
+			<div class="four recipe-box columns">
 
-			$('#dessert-menu-carousel').owlCarousel({
-				animateIn: 'fadeIn',
-				animateOut: 'fadeOut',
-				items: 1,
-				mouseDrag: false,
-				dotsContainer: '#item-thumb1',
-				rtl: carouselRTL
-			});
-		});
+				<!-- Thumbnail -->
+				<div class="thumbnail-holder">
+					<a href="recipe-page-2.html">
+						<img src="images/recipeThumb-06.jpg" alt=""/>
+						<div class="hover-cover"></div>
+						<div class="hover-icon">View Recipe</div>
+					</a>
+				</div>
+				
+				<!-- Content -->
+				<div class="recipe-box-content">
+					<h3><a href="recipe-page-2.html">Sweet Chilli and Lime Chicken Wings</a></h3>
+					
+					<div class="rating five-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
 
-	</script>
+					<div class="recipe-meta"><i class="fa fa-clock-o"></i> 45 min</div>
+
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<!-- Recipe #7 -->
+			<div class="four recipe-box columns">
+
+				<!-- Thumbnail -->
+				<div class="thumbnail-holder">
+					<a href="recipe-page-2.html">
+						<img src="images/recipeThumb-07.jpg" alt=""/>
+						<div class="hover-cover"></div>
+						<div class="hover-icon">View Recipe</div>
+					</a>
+				</div>
+				
+				<!-- Content -->
+				<div class="recipe-box-content">
+					<h3><a href="recipe-page-2.html">Roast Chicken With Lemon Gravy</a></h3>
+					
+					<div class="rating five-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
+
+					<div class="recipe-meta"><i class="fa fa-clock-o"></i> 1 hr 20 min</div>
+
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<!-- Recipe #8 -->
+			<div class="four recipe-box columns">
+
+				<!-- Thumbnail -->
+				<div class="thumbnail-holder">
+					<a href="recipe-page-1.html">
+						<img src="images/recipeThumb-08.jpg" alt=""/>
+						<div class="hover-cover"></div>
+						<div class="hover-icon">View Recipe</div>
+					</a>
+				</div>
+				
+				<!-- Content -->
+				<div class="recipe-box-content">
+					<h3><a href="recipe-page-1.html">Farmhouse Vegetable And Barley Soup</a></h3>
+					
+					<div class="rating four-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
+
+					<div class="recipe-meta"><i class="fa fa-clock-o"></i> 1 hr 30 min</div>
+
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<!-- Recipe #9 -->
+			<div class="four recipe-box columns">
+
+				<!-- Thumbnail -->
+				<div class="thumbnail-holder">
+					<a href="recipe-page-1.html">
+						<img src="images/recipeThumb-09.jpg" alt=""/>
+						<div class="hover-cover"></div>
+						<div class="hover-icon">View Recipe</div>
+					</a>
+				</div>
+				
+				<!-- Content -->
+				<div class="recipe-box-content">
+					<h3><a href="recipe-page-1.html">Chunky Beef Stew</a></h3>
+					
+					<div class="rating five-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
+
+					<div class="recipe-meta"><i class="fa fa-clock-o"></i> 2 hr 30 min</div>
+
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+		</div>
+		<div class="clearfix"></div>
+
+		<!-- Pagination -->
+		<div class="pagination-container masonry">
+			<nav class="pagination">
+				<ul>
+					<li><a href="#" class="current-page">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul>
+			</nav>
+
+			<nav class="pagination-next-prev">
+				<ul>
+					<li><a href="#" class="prev"></a></li>
+					<li><a href="#" class="next"></a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+
+
+<!-- Sidebar
+================================================== -->
+<div class="four columns">
+
+	<!-- Search Form -->
+	<div class="widget search-form">
+		<nav class="search">
+			<form action="#" method="get">
+				<button><i class="fa fa-search"></i></button>
+				<input class="search-field" type="text" placeholder="Search for recipes" value=""/>
+			</form>
+		</nav>
+		<div class="clearfix"></div>
+	</div>
+
+
+	<!-- Author Box 
+	<div class="widget">
+		<div class="author-box">
+			<span class="title">Author</span>
+			<span class="name">Sandra <br> Fortin</span>
+			<span class="contact"><a href="mailto:sandra@chow.com">sandra@chow.com</a></span>
+			<img src="images/author-photo.png" alt="">
+			<p>I'm Sandra and this is where I share my stuff. I am madly in love with food. You will find a balance of healthy recipes, comfort food and indulgent desserts.</p>
+		</div>
+	</div>
+	-->
+	<!-- Popular Recipes -->
+	<div class="widget">
+		<h4 class="headline">Popular Recipes</h4>
+		<span class="line margin-bottom-30"></span>
+		<div class="clearfix"></div>
+		
+		<!-- Recipe #1 -->
+		<a href="recipe-page-1.html" class="featured-recipe">
+			<img src="images/featuredRecipe-01.jpg" alt="">
+
+			<div class="featured-recipe-content">
+				<h4>Choclate Cake With Green Tea Cream</h4>
+			
+				<div class="rating five-stars">
+					<div class="star-rating"></div>
+					<div class="star-bg"></div>
+				</div>
+			</div>
+			<div class="post-icon"></div>
+		</a>
+
+		<!-- Recipe #2 -->
+		<a href="recipe-page-1.html" class="featured-recipe">
+			<img src="images/featuredRecipe-02.jpg" alt="">
+
+			<div class="featured-recipe-content">
+				<h4>Mexican Grilled Corn Recipe</h4>
+			
+				<div class="rating five-stars">
+					<div class="star-rating"></div>
+					<div class="star-bg"></div>
+				</div>
+			</div>
+			<div class="post-icon"></div>
+		</a>
+
+		<!-- Recipe #3 -->
+		<a href="recipe-page-1.html" class="featured-recipe">
+			<img src="images/featuredRecipe-03.jpg" alt="">
+
+			<div class="featured-recipe-content">
+				<h4>Pollo Borracho With Homemade Tortillas</h4>
+			
+				<div class="rating five-stars">
+					<div class="star-rating"></div>
+					<div class="star-bg"></div>
+				</div>
+			</div>
+			<div class="post-icon"></div>
+		</a>
+
+		<div class="clearfix"></div>
+	</div>
+
+	<!-- Share -->
+	<!-- 
+
+	<div class="widget">
+		<h4 class="headline">Share</h4>
+		<span class="line margin-bottom-30"></span>
+		<div class="clearfix"></div>
+		
+		<ul class="share-buttons">
+			
+			<li class="facebook-share">
+				<a href="#">
+					<span class="counter">1,234</span>
+					<span class="counted">Fans</span>
+					<span class="action-button">Like</span>
+				</a>
+			</li>
+
+			<li class="twitter-share">
+				<a href="#">
+					<span class="counter">863</span>
+					<span class="counted">Followers</span>
+					<span class="action-button">Follow</span>
+				</a>
+			</li>
+
+			<li class="google-plus-share">
+				<a href="#">
+					<span class="counter">902</span>
+					<span class="counted">Followers</span>
+					<span class="action-button">Follow</span>
+				</a>
+			</li>
+
+			<li class="behance-share">
+				<a href="#">
+					<span class="counter">902</span>
+					<span class="counted">Followers</span>
+					<span class="action-button">Follow</span>
+				</a>
+			</li>
+
+			<li class="instagram-share">
+				<a href="#">
+					<span class="counter">902</span>
+					<span class="counted">Followers</span>
+					<span class="action-button">Follow</span>
+				</a>
+			</li>
+
+			<li class="dribbble-share">
+				<a href="#">
+					<span class="counter">902</span>
+					<span class="counted">Followers</span>
+					<span class="action-button">Follow</span>
+				</a>
+			</li>
+
+			<li class="linkedin-share">
+				<a href="#">
+					<span class="counter">902</span>
+					<span class="counted">Followers</span>
+					<span class="action-button">Follow</span>
+				</a>
+			</li>
+
+
+			<li class="github-share">
+				<a href="#">
+					<span class="counter">902</span>
+					<span class="counted">Followers</span>
+					<span class="action-button">Follow</span>
+				</a>
+			</li>
+
+
+			<li class="youtube-share">
+				<a href="#">
+					<span class="counter">902</span>
+					<span class="counted">Followers</span>
+					<span class="action-button">Follow</span>
+				</a>
+			</li>
+
+			<li class="pinterest-share">
+				<a href="#">
+					<span class="counter">902</span>
+					<span class="counted">Followers</span>
+					<span class="action-button">Follow</span>
+				</a>
+			</li>
+
+		</ul>
+		<div class="clearfix"></div>
+	</div>
+ -->
+</div>
+
+
+</div>
+<!-- Container / End -->
+
+<div class="margin-top-5"></div>
+
+
+</div>
+<!-- Wrapper / End -->
+
+
+<!-- Footer
+================================================== -->
+<div id="footer">
+
+	<!-- Container -->
+	<div class="container">
+
+		<div class="five columns">
+			<!-- Headline -->
+			<h3 class="headline footer">About</h3>
+			<span class="line"></span>
+			<div class="clearfix"></div>
+			<p>Cras at ultrices erat, sed vulputate eros. Nunc at augue gravida est fermentum vulputate. Pellentesque et ipsum in dui malesuada tempus.</p>
+		</div>
+
+	</div>
+	<!-- Container / End -->
+
+</div>
+<!-- Footer / End -->
+
+<!-- Footer Bottom / Start -->
+<div id="footer-bottom">
+
+	<!-- Container -->
+	<div class="container">
+
+		<div class="eight columns">© Copyright 2018 by <a href="#">GStore</a>. All Rights Reserved.</div>
+
+	</div>
+	<!-- Container / End -->
+
+</div>
+<!-- Footer Bottom / End -->
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="#"></a></div>
+
+
+
+<!-- Java Script
+================================================== -->
+<script src="scripts/jquery-1.11.0.min.js"></script>
+<script src="scripts/jquery-migrate-1.2.1.min.js"></script>
+<script src="scripts/jquery.superfish.js"></script>
+<script src="scripts/jquery.royalslider.min.js"></script>
+<script src="scripts/responsive-nav.js"></script>
+<script src="scripts/hoverIntent.js"></script>
+<script src="scripts/isotope.pkgd.min.js"></script>
+<script src="scripts/chosen.jquery.min.js"></script>
+<script src="scripts/jquery.tooltips.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/jquery.pricefilter.js"></script>
+<script src="scripts/custom.js"></script>
 
 </body>
 </html>
